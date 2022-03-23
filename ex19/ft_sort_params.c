@@ -6,7 +6,7 @@
 /*   By: maolivei <maolivei@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/23 18:44:17 by maolivei          #+#    #+#             */
-/*   Updated: 2022/03/23 19:49:24 by maolivei         ###   ########.fr       */
+/*   Updated: 2022/03/23 16:04:03 by maolivei         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,8 +42,8 @@ int	ft_strcmp(char *s1, char *s2)
 
 int	main(int argc, char *argv[])
 {
-	int	i;
-	int	j;
+	int		i;
+	int		j;
 	char	*aux;
 
 	i = 1;
