@@ -6,9 +6,11 @@
 /*   By: maolivei <maolivei@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/23 18:35:29 by maolivei          #+#    #+#             */
-/*   Updated: 2022/03/23 18:42:24 by maolivei         ###   ########.fr       */
+/*   Updated: 2022/03/28 21:45:46 by maolivei         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+void	ft_putchar(char c);
 
 int	main(int argc, char *argv[])
 {

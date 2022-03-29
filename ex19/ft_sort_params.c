@@ -6,9 +6,11 @@
 /*   By: maolivei <maolivei@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/23 18:44:17 by maolivei          #+#    #+#             */
-/*   Updated: 2022/03/23 16:04:03 by maolivei         ###   ########.fr       */
+/*   Updated: 2022/03/28 21:45:58 by maolivei         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+void	ft_putchar(char c);
 
 void	ft_print_argv(char **argv)
 {
