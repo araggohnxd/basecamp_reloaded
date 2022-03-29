@@ -6,7 +6,7 @@
 /*   By: maolivei <maolivei@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/24 20:07:10 by maolivei          #+#    #+#             */
-/*   Updated: 2022/03/24 20:40:34 by maolivei         ###   ########.fr       */
+/*   Updated: 2022/03/28 22:09:23 by maolivei         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,5 +16,5 @@ void	ft_foreach(int *tab, int length, void (*f)(int))
 
 	i = 0;
 	while (i < length)
-		f(tab[i++]);
+		(*f)(tab[i++]);
 }
