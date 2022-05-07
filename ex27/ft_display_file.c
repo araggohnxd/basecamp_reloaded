@@ -18,7 +18,10 @@ void	ft_display_file(int fd)
 	char	buffer;
 
 	if (fd == -1)
+	{
 		write(2, "Cannot read file.\n", 18);
+		return ;
+	}
 	while (read(fd, &buffer, 1))
 		write(1, &buffer, 1);
 }

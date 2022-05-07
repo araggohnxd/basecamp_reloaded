@@ -6,9 +6,11 @@ RM = rm -f
 
 all:		${NAME}
 
-${NAME}:	${SOURCE}
-			${GCC} -c ${SOURCE}
+${NAME}:	${OBJECT}
 			${GCC} -o ${NAME} ${OBJECT}
+
+.c.o:
+		${GCC} -c $<
 
 clean:
 			${RM} ${OBJECT}
